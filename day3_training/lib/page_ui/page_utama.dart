@@ -1,4 +1,5 @@
 import 'package:day3_training/page_ui/menu/page_dropdown_menu.dart';
+import 'package:day3_training/page_ui/menu/page_menu_item.dart';
 import 'package:day3_training/page_ui/page_costum_grid.dart';
 import 'package:day3_training/page_ui/page_list_horizontal.dart';
 import 'package:day3_training/page_ui/page_simple_grid.dart';
@@ -84,7 +85,7 @@ class PageUtama extends StatelessWidget {
               padding: EdgeInsets.all(10),
               child: MaterialButton(
                 onPressed: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>PageDropDown()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>PageMenuItem()));
 
                 },
                 child: Text('Menu Item Widget'),
